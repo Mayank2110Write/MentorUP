@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MentorUP | Empowering Your Business Growth</title>
+    <style>
+        /* Reset CSS */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #0b1624; /* Dark blue background */
+            color: #fff; /* White text */
+        }
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        /* Header Styles */
+        .header {
+            background-color: #192841; /* Slightly lighter shade of blue for header */
+            padding: 20px 0;
+        }
+        .logo {
+            width: 150px;
+            height: auto;
+        }
+        .nav ul {
+            list-style-type: none;
+            text-align: center;
+        }
+        .nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        .nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+        }
+        .nav ul li a:hover {
+            background-color: #3a4d66; /* Darker shade of blue on hover */
+        }
+        /* Hero Section Styles */
+        .hero {
+            background-color: #192841; /* Same as header background */
+            text-align: center;
+            padding: 100px 0;
+        }
+        .hero h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+        .hero-img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+        }
+        /* About Section Styles */
+        .about {
+            background-color: #1a3046; /* Slightly darker shade of blue */
+            padding: 80px 0;
+        }
+        .about h2 {
+            font-size: 2em;
+            margin-bottom: 30px;
+        }
+        .about p {
+            margin-bottom: 20px;
+        }
+        .about h3 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        .about ul {
+            list-style-type: none;
+        }
+        .about ul li {
+            margin-bottom: 10px;
+        }
+        /* Services Section Styles */
+        .services {
+            background-color: #192841; /* Same as header background */
+            padding: 80px 0;
+        }
+        .services h2 {
+            font-size: 2em;
+            margin-bottom: 30px;
+        }
+        .service {
+            margin-bottom: 40px;
+        }
+        .service h3 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        .service ul {
+            list-style-type: none;
+        }
+        .service ul li {
+            margin-bottom: 10px;
+        }
+        /* Success Stories Section Styles */
+        .success-stories {
+            background-color: #1a3046; /* Slightly darker shade of blue */
+            padding: 80px 0;
+        }
+        .success-stories h2 {
+            font-size: 2em;
+            margin-bottom: 30px;
+            color: #fff; /* White text */
+        }
+        .story {
+            margin-bottom: 30px;
+        }
+        .story h3 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        .story p {
+            font-size: 1.1em;
+        }
+        /* Blog Section Styles */
+        .blog {
+            background-color: #192841; /* Same as header background */
+            padding: 80px 0;
+        }
+        .blog h2 {
+            font-size: 2em;
+            margin-bottom: 30px;
+            color: #fff; /* White text */
+        }
+        .blog-post {
+            margin-bottom: 40px;
+        }
+        .blog-post h3 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        .blog-post p {
+            font-size: 1.1em;
+        }
+        /* Contact Section Styles */
+        .contact {
+            background-color: #1a3046; /* Slightly darker shade of blue */
+            padding: 80px 0;
+        }
+        .contact h2 {
+            font-size: 2em;
+            margin-bottom: 30px;
+            color: #fff; /* White text */
+        }
+        .contact ul {
+            list-style-type: none;
+            margin-bottom: 20px;
+        }
+        .contact ul li {
+            font-size: 1.1em;
+            margin-bottom: 10px;
+        }
+        .contact ul li:last-child {
+            margin-bottom: 0;
+        }
+        .contact ul li:before {
+            content: "\2022"; /* Bullet point character */
+            color: #fff; /* White bullet point */
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+        /* Footer Styles */
+        footer {
+            background-color: #192841; /* Same as header background */
+            color: #fff; /* White text */
+            text-align: center;
+            padding: 20px 0;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <img src="mentorup-logo.png" alt="MentorUP Logo" class="logo">
+            <nav class="nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#success-stories">Success Stories</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="container">
+                <h1>Empower Your Business with MentorUP</h1>
+                <p>Unlock Your Potential with Expert Business Development Services</p>
+                <a href="#" class="btn">Get Started</a>
+            </div>
+            <img src="hero-image.jpg" alt="Business Meeting" class="hero-img">
+        </section>
+
+        <section class="about" id="about">
+            <div class="container">
+                <h2>About Us</h2>
+                <p>At MentorUP, we specialize in driving business growth through innovative strategies, expert guidance, and personalized solutions. Whether you're a startup looking to scale or an established business aiming to expand, we're here to help you reach new heights.</p>
+                <h3>Our Mission</h3>
+                <p>To empower businesses with the tools, strategies, and mentorship they need to achieve sustainable growth and success.</p>
+                <h3>Our Values</h3>
+                <ul>
+                    <li>Integrity</li>
+                    <li>Innovation</li>
+                    <li>Excellence</li>
+                    <li>Collaboration</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="services" id="services">
+            <div class="container">
+                <h2>Services</h2>
+                <div class="service">
+                    <h3>Business Development</h3>
+                    <ul>
+                        <li>Market Research</li>
+                        <li>Lead Generation</li>
+                        <li>Sales Strategy</li>
+                        <li>Partnership Building</li>
+                    </ul>
+                </div>
+                <div class="service">
+                    <h3>Marketing Services</h3>
+                    <ul>
+                        <li>Digital Marketing (SEO, SEM, Social Media)</li>
+                        <li>Content Marketing</li>
+                        <li>Branding</li>
+                        <li>Email Marketing</li>
+                    </ul>
+                </div>
+                <div class="service">
+                    <h3>Consulting</h3>
+                    <ul>
+                        <li>Strategic Planning</li>
+                        <li>Business Model Innovation</li>
+                        <li>Performance Optimization</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="success-stories" id="success-stories">
+            <div class="container">
+                <h2>Success Stories</h2>
+                <div class="story">
+                    <h3>Client A</h3>
+                    <p>MentorUP transformed our business with their innovative strategies and hands-on guidance. Our revenue has increased by 40% in just six months!</p>
+                </div>
+                <div class="story">
+                    <h3>Client B</h3>
+                    <p>Thanks to MentorUP, we were able to streamline our marketing efforts and reach a wider audience. As a result, our customer base has doubled, and we've seen a significant boost in sales.</p>
+                </div>
+                <div class="story">
+                    <h3>Client C</h3>
+                    <p>Working with MentorUP was a game-changer for our company. Their expert advice helped us identify and capitalize on new market opportunities, leading to a 50% increase in profits within a year.</p>
+                </div>
+                <div class="story">
+                    <h3>Client D</h3>
+                    <p>MentorUP's personalized consulting services helped us revamp our business strategy and improve our operational efficiency. We've experienced a noticeable growth in productivity and cost savings since implementing their recommendations.</p>
+                </div>
+                <div class="story">
+                    <h3>Client E</h3>
+                    <p>With MentorUP's guidance, we successfully launched a new product line that exceeded our sales projections. Their market insights and strategic planning were instrumental in our product's success.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="blog" id="blog">
+            <div class="container">
+                <h2>Blog</h2>
+                <article class="blog-post">
+                    <h3>5 Effective Strategies for Lead Generation</h3>
+                    <p>
+                        In today's competitive business landscape, generating high-quality leads is essential for sustained growth and success. However, with so many strategies and tactics available, it can be challenging to determine the most effective approach for your business. In this blog post, we'll explore five
+                    </p>
+                    <p><strong>1. Content Marketing:</strong> Content marketing remains one of the most effective lead generation strategies for businesses of all sizes. By creating valuable and relevant content that addresses the needs and pain points of your target audience, you can attract prospects to your website and establish your brand as a trusted authority in your industry.</p>
+                    <p><strong>2. Search Engine Optimization (SEO):</strong> SEO is another powerful tool for lead generation. By optimizing your website and content for relevant keywords and phrases, you can improve your visibility in search engine results pages (SERPs) and attract organic traffic to your site. Additionally, optimizing your website for mobile devices and local search can help you reach potential customers in your area and drive more qualified leads to your business.</p>
+                    <p><strong>3. Social Media Marketing:</strong> With billions of active users on social media platforms like Facebook, Twitter, and LinkedIn, social media marketing presents a valuable opportunity for lead generation. By engaging with your audience on social media, sharing valuable content, and running targeted advertising campaigns, you can attract new leads and nurture relationships with existing ones.</p>
+                    <p><strong>4. Email Marketing:</strong> Email marketing remains one of the most effective channels for lead generation and nurturing. By building an email list of prospects and customers who have opted in to receive communications from your business, you can deliver targeted messages directly to their inbox.</p>
+                    <p><strong>5. Paid Advertising:</strong> While organic methods like content marketing and SEO are valuable for long-term lead generation, paid advertising can provide immediate results. Platforms like Google Ads, Facebook Ads, and LinkedIn Ads allow you to target specific demographics, interests, and behaviors, ensuring that your ads are seen by the right people at the right time.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <p>Have a question or want to learn more about our services? Get in touch with us!</p>
+                <ul>
+                    <li>Email: mentorupindia@gmail.com</li>
+                    <li>Phone: 8605482768</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 MentorUP. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
+
+

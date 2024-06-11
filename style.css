@@ -1,0 +1,122 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #0b1624; /* Dark blue background */
+    color: #fff; /* White text */
+}
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+/* Header Styles */
+.header {
+    background-color: #192841; /* Slightly lighter shade of blue for header */
+    padding: 20px 0;
+}
+.logo {
+    width: 150px;
+    height: auto;
+}
+.nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+.nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+.nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+/* Hero Section Styles */
+.hero {
+    background-color: #192841; /* Same as header background */
+    text-align: center;
+    padding: 100px 0;
+}
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+.hero-img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+/* About Section Styles */
+.about {
+    padding: 80px 0;
+}
+.about h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+.about p {
+    margin-bottom: 20px;
+}
+.about h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+.about ul {
+    list-style-type: none;
+}
+.about ul li {
+    margin-bottom: 10px;
+}
+.team {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.team-member {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.team-member img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+/* Services Section Styles */
+.services {
+    background-color: #192841; /* Same as header background */
+    padding: 80px 0;
+}
+.services h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+.service {
+    margin-bottom: 40px;
+}
+.service h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+.service ul {
+    list-style-type: none;
+}
+.service ul li {
+    margin-bottom: 10px;
+}
+/* Success Stories Section Styles */
+.success-stories {
+    padding: 80px 0;
+}
+
